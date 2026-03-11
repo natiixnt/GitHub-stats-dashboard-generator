@@ -1,0 +1,19 @@
+{
+  "name": "github-dashboard",
+  "version": "1.0.0",
+  "description": "Generate embeddable GitHub profile dashboard widgets as SVG.",
+  "license": "MIT",
+  "private": false,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
